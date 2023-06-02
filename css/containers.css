@@ -1,0 +1,69 @@
+
+
+body {
+
+    margin: 10vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media(max-width: 850px) {
+    body {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+
+#top_container {
+
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    margin-bottom: 100px;
+
+}
+
+#logo_container {
+
+    width: 100%;
+
+}
+
+@media(max-width: 850px) {
+    #logo_container {
+        height: 12vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#hero_content_container {
+
+    width: 100%;
+    height: auto;
+
+}
+
+#hero_text_container {
+
+    width: 100%;
+
+}
+
+#hero_graphics_container {
+
+    width: 100%;
+
+}
+
+#download_button_container {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: left;
+
+}

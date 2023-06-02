@@ -1,0 +1,48 @@
+
+
+.gpt_icon {
+    height: 40px;
+}
+
+.gpt_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.gpt_text_wrapper {
+
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D9D9D9; 
+
+}
+
+#hero_graphics_container {
+
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.hero_graphics_example {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+#hero_graphics_example_with {
+
+    max-width: 320px;
+
+}
+
+#hero_graphics_example_without {
+
+    margin-bottom: 100px;
+}
