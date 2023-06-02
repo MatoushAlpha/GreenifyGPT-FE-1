@@ -11,12 +11,17 @@
 
 .gpt_text_wrapper {
 
-    font-size: 0.85rem;
     height: auto;
     padding: 10px;
     border-radius: 10px;
     background-color: #D9D9D9; 
 
+}
+
+@media(max-width: 850px) {
+    .gpt_text_wrapper {
+        font-size: 0.85rem;
+    }
 }
 
 #hero_graphics_container {
