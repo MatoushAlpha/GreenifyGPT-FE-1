@@ -2,7 +2,12 @@
 window.onload = function() {
 
     document.getElementById('download_button').addEventListener('click', function() {
-        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf6_oWxxYIcgJlUDQ1cFYwV1QJ0MAEg4CGwxkIrPHHwsjxPzQ/viewform?usp=sf_link';
+        var link = document.createElement('a');
+        link.href = 'shortgpt.zip';
+        link.download = 'shortgpt.zip';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link); 
     });
 
 }

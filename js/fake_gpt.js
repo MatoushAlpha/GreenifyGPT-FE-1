@@ -15,17 +15,16 @@ setInterval(function() {
 
     output_element_long = document.getElementById("gpt_output_without_text");
     current_text_long = output_element_long.innerHTML;
-
+    output_element_short = document.getElementById("gpt_output_with_text");
+    current_text_short = output_element_short.innerHTML;
 
     if (current_text_long.length < output_long.length) {
         output_element_long.innerHTML = output_long.substring(0, current_text_long.length + 1);
     }
 
-    output_element_short = document.getElementById("gpt_output_with_text");
-    current_text_short = output_element_short.innerHTML;
-
     if (current_text_short.length < output_short.length) {
         output_element_short.innerHTML = output_short.substring(0, current_text_short.length + 1);
     }
+
 
 }, 50);
